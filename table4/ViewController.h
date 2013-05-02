@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
 
+@interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITableView *TableTips;
+@property (strong, nonatomic) NSMutableArray *myFeeds4Tips;
 @end

@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "DropBoxViewController.h"
+#import "DropBoxViewController.h"   
+
 
 @interface ViewController ()
 
@@ -26,4 +29,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewDidUnload {
+    [self setTableTips:nil];
+    [super viewDidUnload];
+}
 @end

@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		292BC7CD17320C4E006F775D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292BC7CC17320C4E006F775D /* Security.framework */; };
+		292BC7D217321142006F775D /* DropBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 292BC7D117321142006F775D /* DropBoxViewController.m */; };
 		2984FCC3173188AE00F468EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2984FCC2173188AE00F468EA /* UIKit.framework */; };
 		2984FCC5173188AE00F468EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2984FCC4173188AE00F468EA /* Foundation.framework */; };
 		2984FCC7173188AE00F468EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2984FCC6173188AE00F468EA /* CoreGraphics.framework */; };
-		2984FCCD173188AE00F468EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2984FCCB173188AE00F468EA /* InfoPlist.strings */; };
 		2984FCCF173188AE00F468EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2984FCCE173188AE00F468EA /* main.m */; };
 		2984FCD3173188AE00F468EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2984FCD2173188AE00F468EA /* AppDelegate.m */; };
 		2984FCD5173188AE00F468EA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2984FCD4173188AE00F468EA /* Default.png */; };
@@ -18,15 +19,30 @@
 		2984FCD9173188AE00F468EA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2984FCD8173188AE00F468EA /* Default-568h@2x.png */; };
 		2984FCDC173188AE00F468EA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2984FCDA173188AE00F468EA /* MainStoryboard.storyboard */; };
 		2984FCDF173188AE00F468EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2984FCDE173188AE00F468EA /* ViewController.m */; };
+		29DA8B4917323CB200CB31D1 /* diets.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA8B4B17323CB200CB31D1 /* diets.png */; };
+		29DA8B4C17323CB700CB31D1 /* Gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA8B4E17323CB700CB31D1 /* Gear.png */; };
+		29DA8B4F17323CBB00CB31D1 /* ns.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA8B5117323CBB00CB31D1 /* ns.png */; };
+		29DA8B5217323CBF00CB31D1 /* nutri.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA8B5417323CBF00CB31D1 /* nutri.png */; };
+		29DA8B5517323CC700CB31D1 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA8B5717323CC700CB31D1 /* profile.png */; };
+		29DA8B5817323CCB00CB31D1 /* quit.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA8B5A17323CCB00CB31D1 /* quit.png */; };
+		29DA8B5B17323CCF00CB31D1 /* tips.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA8B5D17323CCF00CB31D1 /* tips.png */; };
+		29DA8B5E17323CE000CB31D1 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA8B6017323CE000CB31D1 /* Icon.png */; };
+		29DA8B6D1732422100CB31D1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DA8B6C1732422100CB31D1 /* QuartzCore.framework */; };
+		29DA8B6F1732424200CB31D1 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DA8B6E1732424200CB31D1 /* DropboxSDK.framework */; };
+		29DA8B711732424F00CB31D1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29DA8B701732424F00CB31D1 /* Info.plist */; };
+		29DA8B781732457200CB31D1 /* CellTips.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DA8B771732457200CB31D1 /* CellTips.m */; };
+		29DA8B7B1732461200CB31D1 /* ViewControllerTips.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DA8B7A1732461200CB31D1 /* ViewControllerTips.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		292BC7CC17320C4E006F775D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		292BC7D017321142006F775D /* DropBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropBoxViewController.h; sourceTree = "<group>"; };
+		292BC7D117321142006F775D /* DropBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropBoxViewController.m; sourceTree = "<group>"; };
 		2984FCBF173188AE00F468EA /* table4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = table4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2984FCC2173188AE00F468EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2984FCC4173188AE00F468EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2984FCC6173188AE00F468EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2984FCCA173188AE00F468EA /* table4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "table4-Info.plist"; sourceTree = "<group>"; };
-		2984FCCC173188AE00F468EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2984FCCE173188AE00F468EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2984FCD0173188AE00F468EA /* table4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "table4-Prefix.pch"; sourceTree = "<group>"; };
 		2984FCD1173188AE00F468EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,6 +53,21 @@
 		2984FCDB173188AE00F468EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		2984FCDD173188AE00F468EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2984FCDE173188AE00F468EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29DA8B4A17323CB200CB31D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/diets.png; sourceTree = "<group>"; };
+		29DA8B4D17323CB700CB31D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Gear.png; sourceTree = "<group>"; };
+		29DA8B5017323CBB00CB31D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/ns.png; sourceTree = "<group>"; };
+		29DA8B5317323CBF00CB31D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/nutri.png; sourceTree = "<group>"; };
+		29DA8B5617323CC700CB31D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/profile.png; sourceTree = "<group>"; };
+		29DA8B5917323CCB00CB31D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/quit.png; sourceTree = "<group>"; };
+		29DA8B5C17323CCF00CB31D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/tips.png; sourceTree = "<group>"; };
+		29DA8B5F17323CE000CB31D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Icon.png; sourceTree = "<group>"; };
+		29DA8B6C1732422100CB31D1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		29DA8B6E1732424200CB31D1 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DropboxSDK.framework; path = ../DropboxSDK.framework; sourceTree = "<group>"; };
+		29DA8B701732424F00CB31D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = Info.plist; path = ../../DropboxSDK.framework/Info.plist; sourceTree = "<group>"; };
+		29DA8B761732457200CB31D1 /* CellTips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellTips.h; sourceTree = "<group>"; };
+		29DA8B771732457200CB31D1 /* CellTips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellTips.m; sourceTree = "<group>"; };
+		29DA8B791732461200CB31D1 /* ViewControllerTips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerTips.h; sourceTree = "<group>"; };
+		29DA8B7A1732461200CB31D1 /* ViewControllerTips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTips.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,18 +75,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29DA8B6D1732422100CB31D1 /* QuartzCore.framework in Frameworks */,
+				292BC7CD17320C4E006F775D /* Security.framework in Frameworks */,
 				2984FCC3173188AE00F468EA /* UIKit.framework in Frameworks */,
 				2984FCC5173188AE00F468EA /* Foundation.framework in Frameworks */,
 				2984FCC7173188AE00F468EA /* CoreGraphics.framework in Frameworks */,
+				29DA8B6F1732424200CB31D1 /* DropboxSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		292BC7C717320981006F775D /* drop */ = {
+			isa = PBXGroup;
+			children = (
+				292BC7D017321142006F775D /* DropBoxViewController.h */,
+				292BC7D117321142006F775D /* DropBoxViewController.m */,
+			);
+			name = drop;
+			sourceTree = "<group>";
+		};
 		2984FCB6173188AE00F468EA = {
 			isa = PBXGroup;
 			children = (
+				29DA8B721732451200CB31D1 /* TipsFeeds */,
+				292BC7C717320981006F775D /* drop */,
 				2984FCC8173188AE00F468EA /* table4 */,
 				2984FCC1173188AE00F468EA /* Frameworks */,
 				2984FCC0173188AE00F468EA /* Products */,
@@ -73,6 +118,9 @@
 		2984FCC1173188AE00F468EA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				29DA8B6E1732424200CB31D1 /* DropboxSDK.framework */,
+				29DA8B6C1732422100CB31D1 /* QuartzCore.framework */,
+				292BC7CC17320C4E006F775D /* Security.framework */,
 				2984FCC2173188AE00F468EA /* UIKit.framework */,
 				2984FCC4173188AE00F468EA /* Foundation.framework */,
 				2984FCC6173188AE00F468EA /* CoreGraphics.framework */,
@@ -96,8 +144,16 @@
 		2984FCC9173188AE00F468EA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				29DA8B6017323CE000CB31D1 /* Icon.png */,
+				29DA8B701732424F00CB31D1 /* Info.plist */,
+				29DA8B4B17323CB200CB31D1 /* diets.png */,
+				29DA8B4E17323CB700CB31D1 /* Gear.png */,
+				29DA8B5117323CBB00CB31D1 /* ns.png */,
+				29DA8B5417323CBF00CB31D1 /* nutri.png */,
+				29DA8B5717323CC700CB31D1 /* profile.png */,
+				29DA8B5A17323CCB00CB31D1 /* quit.png */,
+				29DA8B5D17323CCF00CB31D1 /* tips.png */,
 				2984FCCA173188AE00F468EA /* table4-Info.plist */,
-				2984FCCB173188AE00F468EA /* InfoPlist.strings */,
 				2984FCCE173188AE00F468EA /* main.m */,
 				2984FCD0173188AE00F468EA /* table4-Prefix.pch */,
 				2984FCD4173188AE00F468EA /* Default.png */,
@@ -105,6 +161,17 @@
 				2984FCD8173188AE00F468EA /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29DA8B721732451200CB31D1 /* TipsFeeds */ = {
+			isa = PBXGroup;
+			children = (
+				29DA8B771732457200CB31D1 /* CellTips.m */,
+				29DA8B761732457200CB31D1 /* CellTips.h */,
+				29DA8B791732461200CB31D1 /* ViewControllerTips.h */,
+				29DA8B7A1732461200CB31D1 /* ViewControllerTips.m */,
+			);
+			name = TipsFeeds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,11 +225,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2984FCCD173188AE00F468EA /* InfoPlist.strings in Resources */,
 				2984FCD5173188AE00F468EA /* Default.png in Resources */,
 				2984FCD7173188AE00F468EA /* Default@2x.png in Resources */,
 				2984FCD9173188AE00F468EA /* Default-568h@2x.png in Resources */,
 				2984FCDC173188AE00F468EA /* MainStoryboard.storyboard in Resources */,
+				29DA8B4917323CB200CB31D1 /* diets.png in Resources */,
+				29DA8B4C17323CB700CB31D1 /* Gear.png in Resources */,
+				29DA8B4F17323CBB00CB31D1 /* ns.png in Resources */,
+				29DA8B5217323CBF00CB31D1 /* nutri.png in Resources */,
+				29DA8B5517323CC700CB31D1 /* profile.png in Resources */,
+				29DA8B5817323CCB00CB31D1 /* quit.png in Resources */,
+				29DA8B5B17323CCF00CB31D1 /* tips.png in Resources */,
+				29DA8B5E17323CE000CB31D1 /* Icon.png in Resources */,
+				29DA8B711732424F00CB31D1 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,20 +251,15 @@
 				2984FCCF173188AE00F468EA /* main.m in Sources */,
 				2984FCD3173188AE00F468EA /* AppDelegate.m in Sources */,
 				2984FCDF173188AE00F468EA /* ViewController.m in Sources */,
+				292BC7D217321142006F775D /* DropBoxViewController.m in Sources */,
+				29DA8B781732457200CB31D1 /* CellTips.m in Sources */,
+				29DA8B7B1732461200CB31D1 /* ViewControllerTips.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2984FCCB173188AE00F468EA /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2984FCCC173188AE00F468EA /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		2984FCDA173188AE00F468EA /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -197,6 +267,70 @@
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
+		};
+		29DA8B4B17323CB200CB31D1 /* diets.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29DA8B4A17323CB200CB31D1 /* en */,
+			);
+			name = diets.png;
+			sourceTree = SOURCE_ROOT;
+		};
+		29DA8B4E17323CB700CB31D1 /* Gear.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29DA8B4D17323CB700CB31D1 /* en */,
+			);
+			name = Gear.png;
+			sourceTree = SOURCE_ROOT;
+		};
+		29DA8B5117323CBB00CB31D1 /* ns.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29DA8B5017323CBB00CB31D1 /* en */,
+			);
+			name = ns.png;
+			sourceTree = SOURCE_ROOT;
+		};
+		29DA8B5417323CBF00CB31D1 /* nutri.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29DA8B5317323CBF00CB31D1 /* en */,
+			);
+			name = nutri.png;
+			sourceTree = SOURCE_ROOT;
+		};
+		29DA8B5717323CC700CB31D1 /* profile.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29DA8B5617323CC700CB31D1 /* en */,
+			);
+			name = profile.png;
+			sourceTree = SOURCE_ROOT;
+		};
+		29DA8B5A17323CCB00CB31D1 /* quit.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29DA8B5917323CCB00CB31D1 /* en */,
+			);
+			name = quit.png;
+			sourceTree = SOURCE_ROOT;
+		};
+		29DA8B5D17323CCF00CB31D1 /* tips.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29DA8B5C17323CCF00CB31D1 /* en */,
+			);
+			name = tips.png;
+			sourceTree = SOURCE_ROOT;
+		};
+		29DA8B6017323CE000CB31D1 /* Icon.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29DA8B5F17323CE000CB31D1 /* en */,
+			);
+			name = Icon.png;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 
@@ -260,9 +394,16 @@
 		2984FCE3173188AE00F468EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../drop/Dropbox\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/..\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "table4/table4-Prefix.pch";
 				INFOPLIST_FILE = "table4/table4-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -271,9 +412,16 @@
 		2984FCE4173188AE00F468EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../drop/Dropbox\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/..\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "table4/table4-Prefix.pch";
 				INFOPLIST_FILE = "table4/table4-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -298,6 +446,7 @@
 				2984FCE4173188AE00F468EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
